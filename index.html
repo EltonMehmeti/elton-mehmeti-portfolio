@@ -1,0 +1,417 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+
+ <!--Icon-->
+    <link rel="icon" href="assets/img/eltonicon.png">
+   
+
+    <!--Style-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f94f1c8d4e.js" crossorigin="anonymous"></script>
+
+    <!--Sf Mono Font-->
+    <link href="http://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet">
+
+    <!--Calibri Font-->
+    <link href="http://fonts.cdnfonts.com/css/calibre" rel="stylesheet">
+
+    <title>Elton Mehmeti</title>
+</head>
+
+<body>
+
+    <div id="mainContainer">
+
+        <header id="header" class="header">
+            <nav id="navbar" class="navbar">
+                <div class="logo_container">
+                    <a href="#">
+                        <h1>lton</h1>
+                    </a>
+                </div>
+                <div class="nav_items_container">
+                    <ul>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_item_text">About</a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#projects" class="nav_item_text">Projects</a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_item_text">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="cv_btn">
+                        <a href="assets/me/EltonCV.pdf" target="_blank">Resume</a>
+                    </div>
+
+                </div>
+
+                <div id="menuToggle" class="menuToggle"></div>
+                <div id="menu_mobile" class="menu_mobile">
+                    <ul>
+                        <li class="nav_item">
+                            <a onclick="toggle()" href="#about" class="nav_item_text">About</a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a onclick="toggle()" href="#projects" class="nav_item_text">Projects</a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a onclick="toggle()" href="#contact" class="nav_item_text">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="cv_btn">
+                        <a href="assets/me/EltonCV.pdf" target="_blank">Resume</a>
+                    </div>
+                </div>
+
+
+            </nav>
+        </header>
+
+        <!--Left Side-->
+        <div class="social_icons">
+            <ul>
+                <li class="social_icons_items">
+                    <a href="https://www.linkedin.com/in/elton-mehmeti-0721911a7/" target="_blank">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+                    </a>
+                </li>
+<!--
+                <li class="social_icons_items">
+                    <a href="https://instagram.com/drijon.h" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+-->
+                <li class="social_icons_items">
+                    <a href="https://github.com/EltonMehmeti" target="_blank">
+                        <i class="fab fa-github"></i>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!--Right Side-->
+        <div class="email_div">
+            <div class="email_container">
+                <a href="mailto:eltonmhmt@gmail.com"  class="email">eltonmhmt@gmail.com</a>
+            </div>
+        </div>
+
+
+        <div class="sections_container">
+            <section id="hero" class="styled_section">
+
+                <div class="hero_content">
+
+                    <div id="first_text">
+                        <p>Hello, my name is</p>
+                    </div>
+
+                    <div id="second_text">
+                        <p>Elton Mehmeti.</p>
+                    </div>
+
+                    <div id="third_text">
+                        <p>I'm a Full-Stack Web Developer.</p>
+                    </div>
+
+                    <div id="fourth_text">
+                        <p>A creative thinker, adepted in software-web development and working with various data structures.
+                            </p>
+                    </div>
+
+                    <div id="hero_btn_container">
+                        <a href="#contact" class="hero_btn">Contact me!</a>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="about" class="styled_section">
+                <div class="section_title_container">
+                    <h1 class="section_title">About Me</h1>
+                </div>
+
+                <div class="about_container">
+
+                    <div class="about_info">
+                        <p>
+                            My name is Elton Mehmeti and I'm a web developer.<br> I've been programming since I was 15 years old,
+                            and I enjoy using my skills to create different stuff.
+                            In my free time, I like developing projects, so I can test and improve my skills.
+                            <br>
+                        </p>
+                        <div class="about_skills">
+                            <p>These are the technologies I work with</p>
+                            <ul>
+                                <li> HTML / CSS</li>
+                                <li> JavaScript</li>
+                                <li> PHP / MySQL</li>
+                                <li> WP Advanced</li>
+                                <li> JAVA / JAVAFX</li>
+                                <li> Angular/JS</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="about_image">
+                        <div class="image_border"></div>
+                        <img src="assets/img/elton.jpg" alt="">
+                    </div>
+
+
+                </div>
+
+            </section>
+
+            <section id="projects" class="styled_section">
+                <div class="section_title_container">
+                    <h1 class="section_title">Some Projects I've Developed</h1>
+                </div>
+
+                <div class="projects_container">
+                    <ul>
+                        <li>
+                            <div class="project">
+                                <div class="project_image">
+                                    <a href="">
+                                        <img src="assets/img/Angular2.png" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project_info">
+                                    <div class="project_tile">
+                                        <h1>Recipe Book</h1>
+                                    </div>
+
+                                    <div class="project_desc">
+                                        <p>You can create recipes with products u add in. It's like a real recipe book but virtual which you can share online, made with Angular.
+                                             </p>
+                                    </div>
+
+                                    <div class="project_technologies">
+                                        <ul>
+                                            <li>Angular</li>
+                                            <li>JavaScript</li>
+                                            <li>BootStrap</li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project_reverse">
+                                <div class="project_image">
+                                    <a href="">
+                                        <img src="assets/img/Projekti.png" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project_info">
+                                    <div class="project_tile">
+                                        <h1>Student Application</h1>
+                                    </div>
+
+                                    <div class="project_desc">
+                                        <p>This is a simple Student Application program created with Java(JavaFX). </p>
+                                    </div>
+
+                                    <div class="project_technologies">
+                                        <ul>
+                                            <li>Scene Builder</li>
+                                            <li>JavaFX</li>
+                                            <li>Java</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project">
+                                <div class="project_image">
+                                    <a href="">
+                                       <img src="assets/img/WP.png" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project_info">
+                                    <div class="project_tile">
+                                        <h1>Blog WP</h1>
+                                    </div>
+
+                                    <div class="project_desc">
+                                        <p>Blog Wp is a WordPress theme for blogging interesting images.
+                                            It's customizable, responsive, and fully functional with ACF's,
+                                            Widgets, and Sidebars as well
+                                             </p>
+                                    </div>
+
+                                    <div class="project_technologies">
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>PHP</li>
+                                            <li>WordPress</li>
+                                            <li>ACF-s</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                         <li>
+                            <div class="project_reverse">
+                                <div class="project_image">
+                                    <a href="">
+                                        <img src="assets/img/JavaConverter.png" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project_info">
+                                    <div class="project_tile">
+                                        <h1>Currency Convertor</h1>
+                                    </div>
+
+                                    <div class="project_desc">
+                                        <p>Made with Java, Money convertor is a simple app which u can convert different currencies.</p>
+                                    </div>
+
+                                    <div class="project_technologies">
+                                        <ul>
+                                            <li>Scene Builder</li>
+                                            <li>JavaFX</li>
+                                            <li>Java</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+<li>
+                            <div class="project">
+                                <div class="project_image">
+                                    <a href="">
+                                       <img src="assets/img/htmlAW.png" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="project_info">
+                                    <div class="project_tile">
+                                        <h1>E-Commerce shop</h1>
+                                    </div>
+
+                                    <div class="project_desc">
+                                        <p>This is more like a sample of an e-commerce shop that i created years ago using HTML,CSS and JavaScript.It has really cool animations.
+                                            
+                                             </p>
+                                    </div>
+
+                                    <div class="project_technologies">
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact" class="styled_section">
+                <div class="section_title_container">
+                    <h1 class="section_title">Get In touch</h1>
+                    
+                </div>
+                  <div id="fourth_text">
+                        <p>Get ready to develop your ideas into reality! Say Hello and contact me through my email.
+                            </p>
+                    </div>
+                    <div id="hero_btn_container">
+                        <a href="mailto:eltonmhmt@gmail.com" class="hero_btn">Say Hello</a>
+                    </div>
+
+              <!--  <div class="contact_container">
+
+                    <div class="text_container">
+                      <div class="text_subtitle">
+                            <h2>You Got A Problem To Solve?</h2>
+                        </div>
+
+                        <div class="text_desc">
+                           <p>Get ready to develop your ideas into reality!</p>
+                        </div>
+                    </div>
+-->
+              <!--      <div class="form_container">
+                        <form action="addlogic.php" class="contact_form" method="post">
+                            <div class="name_container">
+                                <label for="name">Name</label>
+                                <input name="" type="text">
+                            </div>
+
+                            <div class="email_container">
+                                <label for="name">Email</label>
+                                <input name="" type="email">
+                            </div>
+
+                            <div class="message_container">
+                                <label for="name">Message</label>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+
+                            <div class="btn_container">
+                                <button name="submit">Hit me up</button>
+                            </div>
+
+                        </form> 
+                    </div>
+                </div>
+            </section>
+
+        </div>-->
+
+        <footer>
+            <div class="footer_div">
+                <p>Elton Mehmeti &copy; 2022</p>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
